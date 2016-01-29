@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{695E8F57-CE40-4CB4-B800-D3DF8D93E811}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26A52A1C-0369-4499-918E-0FC06A558735}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OpenBUMPS", "src\OpenBUMPS\OpenBUMPS.xproj", "{6F303926-6B31-43CA-AE03-98A362301EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F303926-6B31-43CA-AE03-98A362301EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F303926-6B31-43CA-AE03-98A362301EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F303926-6B31-43CA-AE03-98A362301EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F303926-6B31-43CA-AE03-98A362301EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F303926-6B31-43CA-AE03-98A362301EA7} = {695E8F57-CE40-4CB4-B800-D3DF8D93E811}
+	EndGlobalSection
+EndGlobal
