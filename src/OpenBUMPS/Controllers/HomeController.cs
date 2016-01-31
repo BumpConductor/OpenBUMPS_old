@@ -6,6 +6,7 @@ using Microsoft.AspNet.Mvc;
 
 namespace OpenBUMPS.Controllers
 {
+    
     public class HomeController : Controller
     {
         public IActionResult Index()
